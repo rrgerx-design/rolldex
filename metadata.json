@@ -1,0 +1,6 @@
+{
+  "name": "RollDex",
+  "description": "Brazilian Jiu-Jitsu training journal and drill log for tracking classes, Gi/No-Gi sessions, coach notes, drills, submissions, and mat photos.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

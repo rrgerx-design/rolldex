@@ -1,0 +1,209 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Chakra Petch', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* ==========================================================
+   AUTHENTIC BJJ MAT BACKGROUND THEMES & TATAMI WEAVE TEXTURES
+   ========================================================== */
+
+/* 1. White-Gi / Tatami Off-White Dojo (Warm Tatami Straw & Neutral Gi) */
+.theme-white-gi {
+  background-color: #f6f4ee;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(217, 119, 6, 0.07) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(180, 83, 9, 0.05) 0%, transparent 45%),
+    linear-gradient(to right, rgba(120, 53, 15, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(120, 53, 15, 0.035) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 2. Grey Belt (Youth Dojo) */
+.theme-grey-belt {
+  background-color: #f1f5f9;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(100, 116, 139, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(71, 85, 105, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(100, 116, 139, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(100, 116, 139, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 3. Yellow Belt (Youth Progress) */
+.theme-yellow-belt {
+  background-color: #fefce8;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(234, 179, 8, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(202, 138, 4, 0.07) 0%, transparent 45%),
+    linear-gradient(to right, rgba(202, 138, 4, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(202, 138, 4, 0.045) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 4. Orange Belt (Youth Sparring) */
+.theme-orange-belt {
+  background-color: #fff7ed;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(234, 88, 12, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(194, 65, 12, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(234, 88, 12, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(234, 88, 12, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 5. Green Belt (Youth Senior) */
+.theme-green-belt {
+  background-color: #f0fdf4;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(22, 163, 74, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(21, 128, 61, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(22, 163, 74, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(22, 163, 74, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 6. Competition Blue Mat (IBJJF Royal Blue Mat Canvas) */
+.theme-blue-belt {
+  background-color: #e8f0fe;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(29, 78, 216, 0.08) 0%, transparent 45%),
+    linear-gradient(to right, rgba(30, 64, 175, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 64, 175, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 7. Purple Guard Studio (Grappling Studio / Lavender Mat) */
+.theme-purple-belt {
+  background-color: #f3ebf9;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(147, 51, 234, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(126, 34, 206, 0.08) 0%, transparent 45%),
+    linear-gradient(to right, rgba(107, 33, 168, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(107, 33, 168, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 8. Tatami Earth / Brown Belt (Warm Cedar & Heavy Pressure Mat) */
+.theme-brown-belt {
+  background-color: #f4eee6;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(120, 53, 15, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(91, 40, 9, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(120, 53, 15, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(120, 53, 15, 0.045) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 9. Coral Belt (7th Degree Red & Black) */
+.theme-coral-red-black {
+  background-color: #fdf2f2;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(23, 23, 23, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(220, 38, 38, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 23, 23, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 10. Coral Belt (8th Degree Red & White) */
+.theme-coral-red-white {
+  background-color: #fff1f2;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(225, 29, 72, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(244, 63, 94, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(225, 29, 72, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(225, 29, 72, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 11. Red Belt (9th & 10th Degree Grandmaster) */
+.theme-red-belt {
+  background-color: #fef2f2;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(185, 28, 28, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(153, 27, 27, 0.08) 0%, transparent 45%),
+    linear-gradient(to right, rgba(185, 28, 28, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(185, 28, 28, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 12. Submission Grappling / No-Gi Olive Sage */
+.theme-nogi-cyber {
+  background-color: #eaf1e7;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.10) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(5, 150, 105, 0.06) 0%, transparent 45%),
+    linear-gradient(to right, rgba(6, 95, 70, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 95, 70, 0.045) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 13. Charcoal Rashguard / No-Gi Dark */
+.theme-charcoal-stealth {
+  background-color: #0f172a;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(51, 65, 85, 0.20) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(30, 41, 59, 0.30) 0%, transparent 50%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* 14. Stealth Carbon / Black Belt (Midnight Mat with Red Rank Bar Accent) */
+.theme-black-belt {
+  background-color: #121316;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.14) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(64, 64, 64, 0.20) 0%, transparent 50%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Card Surface with BJJ Gi-texture softness */
+.bjj-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
+}
+
+/* Print layout optimizations */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.20);
+  border-radius: 9999px;
+}

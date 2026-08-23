@@ -1,0 +1,35 @@
+{
+  "packageId": "com.rolldex.bjjjournal",
+  "host": "rolldex.app",
+  "name": "RollDex - BJJ Training Journal",
+  "shortName": "RollDex",
+  "description": "Private, offline Brazilian Jiu-Jitsu training journal and technique matrix.",
+  "themeColor": "#0a0a0a",
+  "navigationColor": "#0a0a0a",
+  "backgroundColor": "#0a0a0a",
+  "startUrl": "/",
+  "iconUrl": "https://rolldex.app/icon.png",
+  "maskableIconUrl": "https://rolldex.app/icon.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "rolldex"
+  },
+  "generatorApp": "bubblewrap-cli",
+  "minSdkVersion": 24,
+  "targetSdkVersion": 36,
+  "compileSdkVersion": 36,
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableNotifications": true
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - RollDex BJJ Logbook</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #141414;
+      --border: #262626;
+      --text-main: #f5f5f5;
+      --text-muted: #a3a3a3;
+      --accent: #f59e0b;
+      --accent-light: #fbbf24;
+      --badge-bg: #1c1917;
+      --badge-border: #44403c;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 32px 16px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: var(--badge-bg);
+      color: var(--accent-light);
+      border: 1px solid var(--badge-border);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .highlight-box {
+      background: #1e1b18;
+      border: 1px solid #78350f;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+    }
+    .highlight-box h3 {
+      font-size: 14px;
+      color: var(--accent-light);
+      margin-bottom: 4px;
+    }
+    .highlight-box p {
+      font-size: 13px;
+      color: #fde68a;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-top: 24px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    p, li {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    strong {
+      color: var(--text-main);
+    }
+    .footer {
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      margin-top: 32px;
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .back-btn {
+      display: inline-block;
+      background: #262626;
+      color: #ffffff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .back-btn:hover {
+      background: #333333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="badge">Official Public Policy • Google Play & App Store Compliance</span>
+      <h1>Privacy Policy & Data Transparency</h1>
+      <p class="subtitle">RollDex BJJ Training Logbook • Last Updated: August 2026</p>
+    </div>
+
+    <div class="highlight-box">
+      <h3>🔒 100% Offline Local Storage & Zero Data Collection Guarantee</h3>
+      <p>RollDex does not collect, track, transmit, monetize, or store any personal user data, workout logs, or images on external servers. All data remains exclusively on your local device.</p>
+    </div>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <p>RollDex was purposefully architected as a standalone, client-side application. We do NOT operate remote tracking databases, authentication servers, or external synchronization backends.</p>
+    <ul>
+      <li><strong>No Personal Identifying Information (PII):</strong> We do not ask for or collect names, email addresses, phone numbers, or account passwords.</li>
+      <li><strong>No Cloud Log Storage:</strong> Your martial arts journals, drill logs, competition notes, sparring rounds, and coach names are never uploaded or transmitted.</li>
+      <li><strong>No Analytics or Tracking SDKs:</strong> We do not embed Google Analytics, Firebase Analytics, Meta Pixel, advertising frameworks, or behavior tracking scripts.</li>
+      <li><strong>No Crash Telemetry or Diagnostics:</strong> No background error logs, device identifiers, or IP addresses are collected.</li>
+    </ul>
+
+    <h2>2. Local Device Storage & User Ownership</h2>
+    <p>All data created within RollDex is saved strictly into your device's browser local storage (<code>localStorage</code> / <code>IndexedDB</code>).</p>
+    <ul>
+      <li><strong>Sole Ownership:</strong> You retain complete, absolute ownership of your training records.</li>
+      <li><strong>Manual JSON Backups:</strong> The app provides an Export/Import tool allowing you to download an offline JSON backup at any time.</li>
+      <li><strong>Complete Data Erasure:</strong> You can completely erase all stored data at any time via the "Reset / Clear All Data" action in the app settings, or by clearing your browser's local cache.</li>
+    </ul>
+
+    <h2>3. Device Hardware, Camera & Storage Permissions</h2>
+    <p>If you choose to use the camera, photo attachment, or backup features (such as photographing academy whiteboards, mat snapshots, competition medals, or saving JSON exports):</p>
+    <ul>
+      <li><strong>Local Processing Only:</strong> Any device permissions requested (such as camera access or local storage read/write) are strictly utilized locally on-device to enable feature functionality and never transmit data externally.</li>
+      <li><strong>Zero Remote Uploads:</strong> Images are compressed and stored directly within your device's local storage. No photo or video file is ever uploaded, shared, or sent to external servers or third parties.</li>
+    </ul>
+
+    <h2>4. Minor Practitioner & Child Privacy (COPPA & GDPR-K)</h2>
+    <p>RollDex does not solicit or knowingly collect any personal information from children under 13 (or under 16/18 depending on jurisdiction). Because the software operates entirely offline without data collection or account creation, no child data is ever processed or stored on remote servers. Minor practitioners must utilize the application with parental/guardian authorization under active adult supervision.</p>
+
+    <h2>5. Proprietary Code & Intellectual Property</h2>
+    <p>All rights reserved. RollDex, its visual interface, icon design, and software architecture are proprietary intellectual property. Unauthorized decompilation, reverse engineering, redistribution, scraping, or commercial resale of the software without express authorization is prohibited.</p>
+
+    <h2>6. Passive Journal Utility & Physical Activity Disclaimer</h2>
+    <p>RollDex is strictly a self-directed recording and journaling tool. It does not provide martial arts instruction, technique guidance, safety coaching, or medical diagnosis. Brazilian Jiu-Jitsu and martial arts involve inherent physical risks of injury; users assume all risk and participate solely under qualified in-person coaching.</p>
+
+    <h2>7. Contact & Inquiries</h2>
+    <p>For questions regarding this Privacy Policy or software architecture, you may inspect the application offline license and settings directly inside the app.</p>
+
+    <div class="footer">
+      <span>RollDex • 100% Free Offline BJJ Training Journal</span>
+      <a href="/" class="back-btn">Open RollDex App</a>
+    </div>
+  </div>
+</body>
+</html>

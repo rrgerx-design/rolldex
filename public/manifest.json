@@ -1,0 +1,39 @@
+{
+  "short_name": "RollDex",
+  "name": "RollDex - BJJ Training Journal",
+  "description": "Track your Brazilian Jiu-Jitsu journey: classes, techniques, sparring logs, and belt progression.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#171717",
+  "theme_color": "#171717",
+  "categories": ["fitness", "sports", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "/rolldex-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/rolldex-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/rolldex-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/rolldex-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
